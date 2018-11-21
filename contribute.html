@@ -3,9 +3,15 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <title>Hellō</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/media/favicon.png">
+    <link rel="icon" href="media/favicon.png">
+    <link rel="stylesheet" href="form.css" >
+    <link rel="handler" href="/handler.php"
+    <script src="/form.js"></script>
   </head>
 <body>
 <!--Page Title-->
@@ -43,29 +49,44 @@
       <a href="https://www.instagram.com/helloo.creative/" class="instagram"><i class="fa fa-instagram"></i></a>
       <a href="https://www.youtube.com/channel/UCvP2z46sCaXz5LICfrRn0lQ?view_as=subscriber" class="youtube"><i class="fa fa-youtube"></i></a>
     </div>
-  <!--Form to fill out-->
-  <div class="container">
-    <form id="contact" action="" method="post">
-      <h4>Contact us for custom quote</h4>
-      <fieldset>
-        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Your Email Address" type="email" tabindex="2" required>
-      </fieldset>
-      <fieldset>
-        <input placeholder="Social Media (optional)" type="url" tabindex="4" required>
-      </fieldset>
-      <fieldset>
-        <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-      </fieldset>
-      <fieldset>
-        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-      </fieldset>
-    </form>
-  <div class="footer">
-  <p>Simon A. Dreyer</p>
-  <p><a href="Hello.creativebrand@gmail.com">Email: Hello.creativebrand@gmail.com</a></p>
+    <div class="container">
+    <!-- Form Started -->
+    <div class="container form-top">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                <div class="panel panel-danger">
+                    <div class="panel-body">
+                        <form id="reused_form">
+                            <div class="form-group">
+                                <label> Name</label>
+                                <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label> Email</label>
+                                <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                            </div>
+                            <div class="form-group">
+                                <label> Message</label>
+                                <textarea rows="3" name="message" class="form-control" placeholder="What Can You Contribute With?"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-raised btn-block btn-danger">Send</button>
+                            </div>
+                        </form>
+                        <div id="error_message" style="width:100%; height:100%; display:none; ">
+                            <h4>
+                                Error
+                            </h4>
+                            Sorry there was an error sending your form.
+                        </div>
+                        <div id="success_message" style="width:100%; height:100%; display:none; ">
+<h2>Success! Your Message was Sent Successfully.</h2>
 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
 </body>
 </html>
