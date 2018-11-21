@@ -1,4 +1,3 @@
-
 $(function()
 {
     function after_form_submitted(data)
@@ -33,7 +32,7 @@ $(function()
                 }
             });
 
-        }else
+        }//else
     }
 
 	$('#reused_form').submit(function(e)
