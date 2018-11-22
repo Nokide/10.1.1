@@ -239,13 +239,13 @@ fieldset {
 
 .contact-form {
   padding: 0px;
-  width: 700px;
+  width: 500px;
   margin: auto;
   display: block;
 }
 .contribute {
-  font-size: 50px;
-  margin-top: 70px;
+  font-size: 30px;
+  margin-top: 60px;
 }
 #name {
   margin: -150px;
