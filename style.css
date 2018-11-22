@@ -237,6 +237,17 @@ fieldset {
   padding: 25px;
 }
 
+.contact-form {
+  padding: px;
+  max-width: 500px;
+  display: inline-block;
+}
+.contribute {
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+
 /*Label Font*/
 button {
   font-size: 20px;
