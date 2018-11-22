@@ -238,8 +238,8 @@ fieldset {
 }
 
 .contact-form {
-  padding: px;
-  max-width: 500px;
+  padding: 0px;
+  max-width: 400px;
   display: inline-block;
 }
 .contribute {
