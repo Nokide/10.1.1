@@ -321,6 +321,7 @@ fieldset {
   width: 500px;
   margin: auto;
   display: block;
+  max-width: 400px;
 }
 .contribute {
   font-size: 30px;
