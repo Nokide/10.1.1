@@ -1,16 +1,15 @@
 body {
-  background-color: #131313;
+  background-color: #fff;
 }
 
 .title {
-  color: white;
+  color: black;
   font-style: italic;
   font-family: arial;
   font-size: 120px;
   margin: -10px;
   margin-bottom: -6px;
   text-align: center;
-  background-color: #090909;
 }
 h1 {
   color: white;
@@ -20,7 +19,6 @@ h1 {
   margin: -10px;
   margin-bottom: -6px;
   text-align: center;
-  background-color: #090909;
 }
 h2 {
   font-style: italic;
@@ -29,6 +27,7 @@ h2 {
   font-family: arial;
   font-size: 20px;
   text-align: center;
+  color: black;
 }
 h3 {
   font-style: italic;
@@ -59,18 +58,18 @@ a {
 }
 /*Page Highligted*/
 #current {
-  color: white;
+  color: black;
 }
 /*second page title*/
 .secondtitle {
   font-style: italic;
   font-weight: bold;
-  padding-left: 25px;
+  padding-left: 10px;
   padding-right: 25px;
   font-family: arial;
   font-size: 50px;
-  text-align: center;
-  color: white;
+  display: inline;
+  color: black;
 }
 
 .thirdtitle {
@@ -168,7 +167,7 @@ a {
 /*BUTTON MENY FOR CREATIVE COLLECTIVE*/
 /* The button settings for dropdown menu */
 .dropbtn {
-    background-color: #131313;
+    background-color: #white;
     color: #A2A2A2;
     font-weight: bold;
     font-style: italic;
@@ -188,7 +187,7 @@ a {
     font-weight: bold;
     display: none;
     position: absolute;
-    background-color: rgba(94,94,94,1);
+    background-color: white;
     min-width: 207px;
     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
     z-index: 1;
@@ -196,7 +195,7 @@ a {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color: #a2a2a2;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -209,35 +208,24 @@ a {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #202020;}
+.dropdown:hover .dropbtn {background-color: #ddd;}
 
 /* SOCIAL MEDIA ICONS*/
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
-  top: 52%;
+  top: 62%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* ALL THE WAY DOWN ON THE PAGE */
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #191919;
-    color: white;
-    text-align: center;
-    margin: 0px;
-  }
 /* Style the icon bar links */
 .icon-bar a {
   display: block;
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
-  color: white;
+  color: #a2a2a2;
   font-size: 20px;
   margin: 2px;
   position: relative;
@@ -246,22 +234,23 @@ a {
 /* Style the social media icons with color, if you want */
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: #ddd;
 }
 
 .facebook {
-  --background: #A2A2A2;
-  color: red;
+  color: #a2a2a2;
 }
 
 .instagram {
-  --background: #007bb5;
-  color: white;
+  color: #a2a2a2;
 }
 
 .soundcloud {
-  --background: #bb0000;
-  color: white;
+  color: #a2a2a2;
+}
+
+.youtube {
+  color: #a2a2a2;
 }
 /*contribute*/
 /* Style inputs with type="text", select elements and textareas */
@@ -273,7 +262,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical;  /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -326,6 +315,7 @@ fieldset {
 .contribute {
   font-size: 30px;
   margin-top: 60px;
+  color
 }
 #name {
   margin: -150px;
