@@ -95,7 +95,7 @@ a {
 /* Wrap and div for index menu */
 .wrap {
   text-align: center;
-  margin-left: 0px;
+  margin-left: 5px;
   margin-right: 20px;
 }
 
@@ -233,7 +233,7 @@ a {
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
-  top: 42%;
+  top: 48%;
   margin: 10px ;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
