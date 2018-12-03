@@ -43,6 +43,7 @@ h3 {
 .world {
   display: inline-flex;
   margin-top: 220px;
+  margin-left: 10px;
   font-size: 40px;
   font-family: arial;
   font-style: italic;
