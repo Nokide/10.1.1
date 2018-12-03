@@ -13,6 +13,7 @@ body {
   font-size: 100px;
   margin-top: -10px;
   text-align: center;
+  margin-left: -20px;
 }
 h1 {
   color: white;
@@ -97,8 +98,8 @@ a {
 /* Wrap and div for index menu */
 .wrap {
   text-align: center;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 7px;
 }
 
 .index {
