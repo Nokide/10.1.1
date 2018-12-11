@@ -42,7 +42,7 @@ h3 {
 
 .world {
   display: inline-flex;
-  margin: 220px 0px 0px 10px;
+  margin: 210px 0px 0px 10px;
   font-size: 25px;
   font-family: arial;
   font-style: italic;
@@ -219,21 +219,20 @@ a {
 .icon-bar {
   position: fixed;
   top: 48%;
-  margin: 0px ;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  margin-left: 10px ;
+
+
 }
 
 /* Style the icon bar links */
 .icon-bar a{
   display: block;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   transition: all 0.3s ease;
   color: #a2a2a2;
   font-size: 20px;
-  margin: 0px;
+  margin: 2px;
   position: relative;
   top: -130px;
   right: 10px;
