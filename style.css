@@ -48,6 +48,14 @@ h3 {
   font-style: italic;
   font-weight: bold;
 }
+.shop {
+  display: inline-flex;
+  margin: 220px 0px 0px 10px;
+  font-size: 25px;
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+}
 p {
   font-size: 20px;
   color: #a2a2a2;
