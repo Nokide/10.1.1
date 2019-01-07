@@ -43,7 +43,7 @@ h3 {
   font-style: ;
   font-family: 'forgettica';
   font-size: 60px;
-  margin-top: -10px;
+  margin-top: -40px;
   margin-left: 205px;
   text-align: center;
 }
@@ -59,8 +59,13 @@ h3 {
 
 p {
   font-size: 20px;
-  color: #a2a2a2;
+  font-family: arial;
+  color: black;
+  padding-left: 50px;
+  padding-right: 30px;
+  max-width: 550px;
 }
+
 /*links */
 a {
   color: #A2A2A2;
@@ -406,4 +411,9 @@ iframe   {
 
 .shop {
   margin-top: 10px;
+}
+
+.photoText {
+  display: inline;
+
 }
