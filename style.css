@@ -87,8 +87,10 @@ a {
   font-weight: bold;
   font-family: arial;
   font-size: 40px;
-  display: inline-block;
-  color: rgba(0, 0, 0, 0.1);
+  margin-left: 8px;
+  margin-top: 8px;
+  display: inline;
+  color: rgba(0, 0, 0, 0.3);
 }
 /* Wrap and div for index menu */
 .wrap {
