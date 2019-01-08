@@ -149,9 +149,10 @@ a {
 /* Links inside the dropdown */
 .dropdown-content a {
     color: #a2a2a2;
-    padding: 10px 10px;
+    padding: 0px 0px;
     text-decoration: none;
     display: block;
+    transition: all 0.3s ease;
 }
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
@@ -180,7 +181,7 @@ a {
   text-align: center;
   padding: 10px;
   transition: all 0.3s ease;
-  color: #a2a2a2;
+  color: #a9a9a9;
   font-size: 20px;
   margin: 2px;
   position: relative;
