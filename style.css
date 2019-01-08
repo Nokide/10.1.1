@@ -123,7 +123,7 @@ a {
     font-weight: bold;
     font-style: normal;
     font-size: 20px;
-    padding: 0 -2px;
+    padding: none;
     margin: 0 -11px;
     border: none;
 }
@@ -164,7 +164,7 @@ a {
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #ddd;}
+.dropdown:hover .dropbtn {background-color: none;}
 
 /* SOCIAL MEDIA ICONS*/
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
