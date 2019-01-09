@@ -34,8 +34,8 @@ h1 {
 h2 {
   font-weight: bold;
   font-style: normal;
-  padding: 0 5px;
   font-family: arial;
+  padding: 0 2px;
   font-size: 20px;
   text-align: center;
   color: black;
@@ -116,6 +116,10 @@ a {
   color: #A2A2A2;
 
 }
+.radio {
+  text-align: center;
+  margin-top: 10px;
+}
 /*BUTTON MENU FOR CREATIVE COLLECTIVE*/
 /* The button settings for dropdown menu */
 .dropbtn {
@@ -124,7 +128,7 @@ a {
     font-style: normal;
     font-size: 20px;
     padding: none;
-    margin: 0 -11px;
+    margin: 0 -5px;
     border: none;
 }
 
