@@ -22,6 +22,11 @@ body {
   margin-bottom: -5px;
   text-align: center;
 }
+
+#titleSpace {
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
 h1 {
   color: white;
   font-family: arial;
